@@ -1,0 +1,47 @@
+1) [INICIO Main]
+2) [Declaración de variables]
+	double nMConve, equival;
+	double resp;
+	String nMonOri, nMonDes;
+3) [Lectura variables]
+	nMonOri = leeString("Nombre de moneda origen es: ")
+	nMConve = leedouble("Dame el monto a convertir: ")
+	nMonDes = leeString("Nombre de moneda de destino es: ")
+	equival = leedouble("Dame la equivalencia de conversion de la moneda origen a la moneda de destino: ");
+4)[Solución del problema]
+	resp = conversiondemoneda(nMConve, equival)
+5) [Presentación de Resultados]
+	print (resp + nMonOri + nMConve + nMonDes)
+6) [Termina]
+
+1) [INICIO método de lectura del monto]
+2) [Variable de entrada]
+	string letrero
+3) [Declaración de variables]
+	double valor
+4) [Lectura variables]
+	read (valor)
+5) [regreso de resultado]
+	return valor
+6) [Termina]
+
+1) [INICIO método de lectura del nombre de monedas]
+2) [Variable de entrada]
+	string letrero
+3) [Declaración de variables]
+	String n
+4) [Lectura variables]
+	read (n)
+5) [regreso de resultado]
+	return n
+6) [Termina]
+
+1) [INICIO de método para calcular la conversión]
+2) [Declaración de variables]
+	double monto
+3)[Solución del problema]
+	monto = nMConve * equival
+4) [regresar resultados]
+	return monto
+5) [Termina]
+

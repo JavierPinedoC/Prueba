@@ -1,0 +1,35 @@
+1) [INICIO Main]
+2) [Declaración de variables]
+	double dosPx1, dosPx2, dosPy1, dosPy2;
+	double resp;
+3) [Lectura variables]
+	dosPx1 = leedouble("Dame el punto x1: ") 
+	dosPx2 = leedouble("Dame el punto x2: ")
+	dosPy1 = leedouble("Dame el punto y1: ")
+	dosPy2 = leedouble("Dame el punto y2: ")
+4)[Solución del problema]
+	resp = distanciadosP(dosPx1, dosPx2, dosPy1, dosPy2);
+5) [Presentación de Resultados]
+	print (resp)
+6) [Termina]
+
+1) [INICIO método de lectura]
+2) [Variable de entrada]
+	string letrero
+3) [Declaración de variables]
+	double valor
+4) [Lectura variables]
+	read (valor)
+5) [regreso de resultado]
+	return valor
+6) [Termina]
+
+1) [INICIO de método area del circulo]
+2) [Declaración de variables]
+	double dist
+3)[Solución del problema]
+	dist = sqrt ((x2-x1)^2 + (y2-y1)^2)
+4) [regresar resultados]
+	return dist
+5) [Termina]
+

@@ -1,0 +1,49 @@
+1) [INICIO Main]
+2) [Declaración de variables]
+	double a, b, c
+	double resposi, resnega
+3) [Lectura variables]
+	a = leedouble("Dame el valor de A: ")
+	b = leedouble("Dame el valor de B: ")
+	c = leedouble("Dame el valor de C: ")
+4)[Solución del problema]
+	resposi = raizformulageneralpositiva(a, b, c)
+	resnega = raizformulageneralnegativa(a, b, c)
+5) [Presentación de Resultados]
+	print (resposi + resnega)
+6) [Termina]
+
+1) [INICIO método de lectura de a,b,c]
+2) [Variable de entrada]
+	string letrero
+3) [Declaración de variables]
+	double valor
+4) [Lectura variables]
+	read (valor)
+5) [regreso de resultado]
+	return valor
+6) [Termina]
+
+1) [INICIO de método para calcular la fórmula positiva]
+2) [Declaración de variables]
+	double menosb, discri, divisor, r1
+3)[Solución del problema]
+	menosb = (-1 * b)
+	discri = (Math.pow(b,2))-(4*a*c)
+	divisor = (2 * a)
+	r1 = ((menosb + Math.sqrt(discri)) / divisor)
+4) [regresar resultados]
+	return r1
+5) [Termina]
+
+1) [INICIO de método para calcular la fórmula negativa]
+2) [Declaración de variables]
+	double menosb, discri, divisor, r1
+3)[Solución del problema]
+	menosb = (-1 * b)
+	discri = (Math.pow(b,2))-(4*a*c)
+	divisor = (2 * a)
+	r2 = ((menosb - Math.sqrt(discri)) / divisor)
+4) [regresar resultados]
+	return r2
+5) [Termina]

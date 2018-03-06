@@ -1,0 +1,116 @@
+1) [INICIO Main]
+2) [Declaración de variables]
+	String nomP, nomM1, nomM2, nomM3, indicadorEs;
+	double cM1, cM2, cM3,pro;
+	int ap;
+3) [Lectura variables]
+	nomP = leestring("Nombre del alumno: ");
+	nomM1 = leestring("Nombre de la Materia 1: ");
+	nomM2 = leestring("Nombre de la Materia 2: ");
+	nomM3 = leestring("Nombre de la Materia 3: ");
+	cM1 = leedouble("Cual es la calificacion de " + nomM1 + "?: ");
+	cM2 = leedouble("Cual es la calificacion de " + nomM2 + "?: ");
+	cM3 = leedouble("Cual es la calificacion de " + nomM3 + "?: ");
+4)[Solución del problema]
+	pro = prom(cM1,cM2,cM3);
+	indicadorEs = indiEstu(pro);
+	ap = numApro(cM1,cM2,cM3);
+5) [Presentación de Resultados con un if]
+	if(validCal(cM1,cM2,cM3) == true){
+	System.out.println("");
+	System.out.printf("Tu promedio es: %.2f\n",pro);
+	System.out.println("Tu eres un estudiante: " + indicadorEs);
+	System.out.println("Tus materias aprobadas son: " + ap);}
+
+	else{
+		System.out.println("");
+		System.out.printf("Error al ingresar los datos, por favor de verificar\n");}
+6) [Termina]
+
+1) [INICIO método de lectura de los datos]
+2) [Variable de entrada]
+	string letrero
+3) [Declaración de variables]
+	double valor
+4) [Lectura variables]
+	read (valor)
+5) [regreso de resultado]
+	return valor
+6) [Termina]
+
+1) [INICIO método de lectura del nombre del alumno]
+2) [Variable de entrada]
+	string letrero
+3) [Declaración de variables]
+	String v
+4) [Lectura variables]
+	read (v)
+5) [regreso de resultado]
+	return v
+6) [Termina]
+
+1) [INICIO de método para calcular porcentaje de descuento]
+2) [Declaración de variables]
+	double des, desT
+3)[Solución del problema]
+	des = (costoConDescuen * 100)/(costoSinDescu)
+	desT = (100 - des)
+4) [regresar resultados]
+	return desT
+5) [Termina]
+
+1) [INICIO de método para varificar que los datos esten dentro del rango]
+2) [Declaración de variables]
+	 boolean rmat
+3)[Solución del problema con if]
+	if((cM1>=10 && cM1<=100 ) && (cM2 >= 10 && cM2 <= 100) && (cM3 >= 10 && cM3 <= 100))
+		rmat = true;
+	else
+		rmat = false;
+4) [regresar resultados]
+	return rmat
+5) [Termina]
+
+1) [INICIO de método para calcular promedio]
+2) [Declaración de variables]
+	double promedio
+3)[Solución del problema]
+	promedio = ((cM1 + cM2 + cM3) / 3);
+4) [regresar resultados]
+	return promedio
+5) [Termina]
+
+1) [INICIO de método para indicar el nivel de el alumno]
+2) [Declaración de variables]
+	String indicador
+4) [Iniciar variables]
+	indicador = ""
+4)[Solución del problema con if]
+	if (prom >= 90)
+		indicador = "Excelente";
+	if(prom >= 80 && prom < 90)
+		indicador = "Bueno";
+	if(prom >= 70 && prom < 80)
+		indicador = "Regular";
+	if(prom < 70)
+		indicador = "Malito";
+5) [regresar resultados]
+	return indicador
+6) [Termina]
+
+1) [INICIO de método para ver materias aprobadas]
+2) [Declaración de variables]
+	int matApro
+4) [Iniciar variables]
+	matApro = 0
+4)[Solución del problema con if]
+	if((cM1 >= 70))
+		matApro+ 1
+	if((cM2 >= 70))
+		matApro+ 1
+	if((cM3 >= 70))
+		matApro+ 1
+5) [regresar resultados]
+	return matApro
+6) [Termina]
+

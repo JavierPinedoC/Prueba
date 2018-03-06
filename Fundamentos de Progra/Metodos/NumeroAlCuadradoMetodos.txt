@@ -1,0 +1,40 @@
+1) [INICIO Main]
+2) [Declaración de variables]
+	Double p,a, radio
+3) [Lectura variables]
+	radio = leeDouble("Dame el radio del circlo: ")
+4)[Solución del problema]
+	a = areadelcirculo(radio)
+	p = perimetrodelcirculo(radio)
+5) [Presentación de Resultados]
+	print (a + p)
+6) [Termina]
+
+1) [INICIO método de lectura]
+2) [Variable de entrada]
+	string letrero
+3) [Declaración de variables]
+	double valor
+4) [Lectura variables]
+	read (valor)
+5) [regreso de resultado]
+	return valor
+6) [Termina]
+
+1) [INICIO de método area del circulo]
+2) [Declaración de variables]
+	double are
+3)[Solución del problema]
+	are = Pi * radio^2
+4) [regresar resultados]
+	return are
+5) [Termina]
+
+1) [INICIO de método perimetro del circulo]
+2) [Declaración de variables]
+	double per
+3)[Solución del problema]
+	per = Pi * (2 * radio)
+4) [regresar resultados]
+	return per
+5) [Termina]

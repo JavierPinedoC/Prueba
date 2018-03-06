@@ -1,0 +1,69 @@
+1) [INICIO Main]
+2) [Declaración de variables]
+	double m1,m2,m3,m4,m5,m6,m7,m8;
+	double pesTo;
+3) [Lectura variables]
+	m1 = leedouble("Dame el peso de la moneda 1: ");
+	m2 = leedouble("Dame el peso de la moneda 2: ");
+	m3 = leedouble("Dame el peso de la moneda 3: ");
+	m4 = leedouble("Dame el peso de la moneda 4: ");
+	m5 = leedouble("Dame el peso de la moneda 5: ");
+	m6 = leedouble("Dame el peso de la moneda 6: ");
+	m7 = leedouble("Dame el peso de la moneda 7: ");
+	m8 = leedouble("Dame el peso de la moneda 8: ");
+4)[Solución del problema]
+	pesTo = encuentraMayor(m1,m2,m3,m4,m5,m6,m7,m8);
+5) [Presentación de Resultados]
+	System.out.println();
+	System.out.println("La moneda mayor es la que tenga el peso de: " + pesTo)
+6) [Termina]
+
+1) [INICIO método de lectura de los datos]
+2) [Variable de entrada]
+	string letrero
+3) [Declaración de variables]
+	double valor
+4) [Lectura variables]
+	read (valor)
+5) [regreso de resultado]
+	return valor
+6) [Termina]
+
+1) [INICIO de método para encontrar el mayor]
+2) [Declaración de variables]
+	double g1, g2, mayor
+3) [Lectura de variables]
+	leer(m1,m2,m3,m4,m5,m6,m7,m8)
+4)[Solución del problema con if]
+	g1 = m1 + m2 + m3;
+	g2 = m4 + m5 + m6;
+
+	if (g1 == g2)
+		if(m7 > m8)
+		mayor = m7
+		else
+		mayor = m8
+	else if (g1>g2)
+	mayor = mayor3(m1,m2,m3)
+	else 
+	mayor = mayor3(m4,m5,m6)
+5) [regresar resultados]
+	return mayor
+6) [Termina]
+
+1) [INICIO de método para evaluar mayores]
+2) [Declaración de variables]
+	double mayor
+3)[lectura de variables]
+	leer(ma,mb,mc)
+4)[Solución del problema con if]
+	if (ma == mb)
+		mayor = mc;
+	else if (ma>mb)
+		mayor = ma;
+	else
+		mayor = mb;
+5) [regresar resultados]
+	return mayor
+6) [Termina]
+

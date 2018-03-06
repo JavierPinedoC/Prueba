@@ -1,0 +1,11 @@
+1) [INICIO]
+2) [Declaración de variables]
+	int numero;
+	int ncuadrado;
+3) [Lectura variables]
+	read (variable)
+4) [Solución del problema]
+	ncuadrado = numero^2
+5) [Presentación de Resultados]
+	print (ncuadrado)
+6) [Termina]

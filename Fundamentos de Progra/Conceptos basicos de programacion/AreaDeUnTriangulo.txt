@@ -1,0 +1,15 @@
+1) [INICIO]
+2) [Declaración de variables]
+	double b,h,are;
+	int c;
+	Scanner x1;
+3) [Lectura variables]
+	read (B,H)
+4) [inicio de Variables]
+	c = 2;
+	are = 0.0;
+5)[Solución del problema]
+	are= ((b*h)/c)
+6) [Presentación de Resultados]
+	print (are)
+7) [Termina]

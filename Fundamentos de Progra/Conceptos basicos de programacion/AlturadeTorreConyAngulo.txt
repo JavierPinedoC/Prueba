@@ -1,0 +1,20 @@
+1) [INICIO]
+2) [Declaración de variables]
+	Double anRad,d,hTorredeCon, hAvion, dReal;
+	Double angulo, cateOp;
+	Scanner x1;
+3) [Lectura variables]
+	read (d,hAvion,hTorredeCon)
+4) [inicio de Variables]
+	dReal = 0.0;
+	angulo = 0.0;
+	anRad = 0.0;
+	cateOp = 0.0;
+5)[Solución del problema]
+	cateOp = hAvion - hTorredeCon;
+	dReal = sqrt(((d)^2)+((cateOp)^2)));
+	anRad = (arctan(cateOp / d));
+	angulo = (180*anRad) / Pi;
+6) [Presentación de Resultados]
+	print (dReal, angulo)
+7) [Termina]

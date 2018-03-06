@@ -1,0 +1,42 @@
+1) [INICIO Main]
+2) [Declaración de variables]
+	int n, veces, num2, divisores, di;
+	String nCadena, numerosC;
+3) [Lectura variables]
+	n = leeEntero("valor del numero: ");
+4)[Solución del problema]
+	do{	
+		if(n % num2 == 0){
+		nCadena = enteroAcadena(num2);
+		numerosC = (numerosC + nCadena + " ");}
+		num2 = num2 + 1;
+		
+	}while(num2 <= n);
+5) [Presentación de Resultados]
+	print numerosC;
+6) [Termina]
+
+1) [INICIO método de lectura de los datos enteros]
+2) [Variable de entrada]
+	string letrero
+3) [Declaración de variables]
+	int valor
+4) [Lectura variables]
+	read (valor)
+5) [regreso de resultado]
+	return valor
+6) [Termina]
+
+1) [INICIO de método para convertir double a string]
+2) [Declaración de variables]
+	String resultado;
+	StringBuilder n;
+3)[Solución del problema]
+	n = new StringBuilder();
+	n.append("");
+	n.append(variable);
+resultado = n.toString();
+4) [regresar resultados]
+	return resultado;
+5) [Termina]
+

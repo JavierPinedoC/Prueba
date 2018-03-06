@@ -1,0 +1,68 @@
+1) [INICIO Main]
+2) [Declaración de variables]
+	double costoSinDescu, costoConDescuen, impuesto
+	String nomPro
+	double porcentajeiva, costoIyD, costoIyR
+3) [Lectura variables]
+	nomPro = leeString("Nombre del producto: ")
+	costoSinDescu = leedouble("Costo real del producto " + nomPro + ": ")
+	costoConDescuen = leedouble("Costo con descuento del producto " + nomPro + ": ")
+	impuesto = leedouble("IVA del producto " + nomPro + ": ")
+4)[Solución del problema]
+	porcentajeiva = porcentajeDes(costoSinDescu, costoConDescuen, impuesto)
+	costoIyR = costoConIVAsinDes(costoSinDescu, costoConDescuen, impuesto)
+	costoIyD = costoConIVAConDescuento(costoSinDescu, costoConDescuen, impuesto)
+5) [Presentación de Resultados]
+	print (porcentajeiva + costoIyR + costoIyD)
+6) [Termina]
+
+1) [INICIO método de lectura de los costos]
+2) [Variable de entrada]
+	string letrero
+3) [Declaración de variables]
+	double valor
+4) [Lectura variables]
+	read (valor)
+5) [regreso de resultado]
+	return valor
+6) [Termina]
+
+1) [INICIO método de lectura del nombre del producto]
+2) [Variable de entrada]
+	string letrero
+3) [Declaración de variables]
+	String n
+4) [Lectura variables]
+	read (n)
+5) [regreso de resultado]
+	return n
+6) [Termina]
+
+1) [INICIO de método para calcular porcentaje de descuento]
+2) [Declaración de variables]
+	double des, desT
+3)[Solución del problema]
+	des = (costoConDescuen * 100)/(costoSinDescu)
+	desT = (100 - des)
+4) [regresar resultados]
+	return desT
+5) [Termina]
+
+1) [INICIO de método para calcular costoConIVAsinDes]
+2) [Declaración de variables]
+	double costoT
+3)[Solución del problema]
+	costoT = costoSinDescu + (costoSinDescu * (impuesto / 100))
+4) [regresar resultados]
+	return CostoT
+5) [Termina]
+
+1) [INICIO de método para calcular costoConIVAconDes]
+2) [Declaración de variables]
+	double costoConDes
+3)[Solución del problema]
+	costoConDes = costoConDescuen + (costoConDescuen * (impuesto / 100))
+4) [regresar resultados]
+	return costoConDes
+5) [Termina]
+
